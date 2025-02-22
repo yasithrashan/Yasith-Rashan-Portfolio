@@ -1,5 +1,9 @@
+import About from "./src/components/About"
+import Contact from "./src/components/Contact"
+import Education from "./src/components/Education"
 import Hero from "./src/components/Hero"
 import Navbar from "./src/components/Navbar"
+import Projects from "./src/components/Projects"
 import Technologies from "./src/components/Technologies"
 
 const App = () => {
@@ -26,7 +30,11 @@ const App = () => {
       <div className="container mx-auto px-8">
         <Navbar />
         <Hero />
+        <About />
         <Technologies />
+        <Projects />
+        <Education />
+        <Contact />
       </div>
     </div>
   )

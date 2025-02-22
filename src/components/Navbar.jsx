@@ -13,9 +13,9 @@ const Navbar = () => {
       <div className="flex items-center justify-center gap-6 text-2xl">
         {[
           { href: "https://www.linkedin.com/in/yasith-rashan-a44b54295/", icon: FaLinkedin, label: "LinkedIn" },
-          { href: "https://github.com/yourusername", icon: FaGithub, label: "GitHub" },
-          { href: "https://www.instagram.com/yourusername/", icon: FaInstagram, label: "Instagram" },
-          { href: "https://www.facebook.com/yourusername/", icon: FaFacebook, label: "Facebook" },
+          { href: "https://github.com/yasithrashan2003", icon: FaGithub, label: "GitHub" },
+          { href: "https://www.instagram.com/yxsiya?igsh=MXowbGZyZjNlNXlx&utm_source=qr", icon: FaInstagram, label: "Instagram" },
+          { href: "https://www.facebook.com/share/14h4MaeF3u/?mibextid=wwXIfr", icon: FaFacebook, label: "Facebook" },
           { href: "https://twitter.com/yourusername", icon: FaSquareXTwitter, label: "Twitter" },
         ].map(({ href, icon: Icon, label }) => (
           <a
