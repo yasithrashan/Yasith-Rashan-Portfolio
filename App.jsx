@@ -1,19 +1,33 @@
 import Hero from "./src/components/Hero"
 import Navbar from "./src/components/Navbar"
+import Technologies from "./src/components/Technologies"
 
 const App = () => {
   return (
     <div className="overflow-x-hidden text-stone-300 antialiased">
       <div className="fixed inset-0 -z-10">
-      <div class="relative h-full w-full bg-slate-950"><div class="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"></div></div>
+        <div className="relative h-full w-full bg-black">
+          {/* Subtle dot pattern overlay */}
+          <div className="absolute inset-0 opacity-20" 
+            style={{
+              backgroundImage: `radial-gradient(#ffffff 0.5px, transparent 0.5px)`,
+              backgroundSize: '24px 24px'
+            }}
+          ></div>
+          
+          {/* Subtle gradient glow */}
+          <div className="absolute h-full w-full">
+            <div className="absolute top-1/4 -left-1/4 h-96 w-96 bg-purple-900/20 rounded-full blur-[128px]"></div>
+            <div className="absolute bottom-1/4 -right-1/4 h-96 w-96 bg-blue-900/20 rounded-full blur-[128px]"></div>
+          </div>
+        </div>
       </div>
 
       <div className="container mx-auto px-8">
         <Navbar />
         <Hero />
+        <Technologies />
       </div>
-
-
     </div>
   )
 }
