@@ -21,8 +21,8 @@ const Footer = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <h3 className="text-lg font-semibold text-stone-900">About</h3>
-            <p className="mt-4 text-sm leading-6 text-stone-700">
+            <h3 className="text-lg font-semibold text-stone-600">About</h3>
+            <p className="mt-4 text-sm leading-6 text-stone-500">
               Passionate software engineer and full-stack developer dedicated to creating innovative solutions and delivering exceptional user experiences.
             </p>
           </motion.div>
@@ -33,7 +33,7 @@ const Footer = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            <h3 className="text-lg font-semibold text-stone-900">Connect</h3>
+            <h3 className="text-lg font-semibold text-stone-600">Connect</h3>
             <div className="mt-4 flex gap-4 text-xl">
               {[
                 { href: "https://www.linkedin.com/in/yasith-rashan-a44b54295/", icon: FaLinkedin, label: "LinkedIn" },
@@ -48,7 +48,7 @@ const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={label}
-                  className="text-stone-800 transition-transform hover:scale-110 hover:text-stone-900"
+                  className="text-stone-500 transition-transform hover:scale-110 hover:text-stone-400"
                 >
                   <Icon />
                 </a>
@@ -62,13 +62,13 @@ const Footer = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.8 }}
           >
-            <h3 className="text-lg font-semibold text-stone-900">Services</h3>
-            <ul className="mt-4 space-y-2 text-sm text-stone-700">
+            <h3 className="text-lg font-semibold text-stone-600">Services</h3>
+            <ul className="mt-4 space-y-2 text-sm text-stone-500">
               {['Web Development', 'Software Engineering'].map((service) => (
                 <li key={service}>
                   <a 
                     href="#"
-                    className="transition-colors hover:text-stone-900"
+                    className="transition-colors hover:text-stone-400"
                   >
                     {service}
                   </a>
@@ -85,7 +85,7 @@ const Footer = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 1 }}
         >
-          <p className="text-sm text-stone-800">
+          <p className="text-sm text-stone-500">
             © {currentYear} Yasith Rashan. All rights reserved.
           </p>
         </motion.div>
