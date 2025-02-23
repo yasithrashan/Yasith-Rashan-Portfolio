@@ -1,4 +1,5 @@
 import About from "./src/components/About"
+import Certificates from "./src/components/Certificates"
 import Contact from "./src/components/Contact"
 import Education from "./src/components/Education"
 import Hero from "./src/components/Hero"
@@ -34,6 +35,7 @@ const App = () => {
         <Technologies />
         <Projects />
         <Education />
+        <Certificates />
         <Contact />
       </div>
     </div>

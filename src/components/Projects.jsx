@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
 import { ExternalLink } from "lucide-react";
+import portfolio from "../assets/projects/portfolio.png";
+
 
 /** @type {Array<{ name: string, description: string, technologies: string[], github: string, demo: string, image: string }>} */
 const projects = [
@@ -9,7 +11,7 @@ const projects = [
     description: "A comprehensive university management system enabling seamless student enrollment, course management, and faculty administration.",
     technologies: ["React", "Node.js", "Firebase", "JavaScript"],
     github: "https://github.com/yasithrashan2003/Spacefix-app",
-    demo: "www.spacefix.lk",
+    demo: "https://www.spacefix.lk/",
     image: "https://images.unsplash.com/photo-1590579491624-f98f36d4c763?q=80&w=2043&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
@@ -20,7 +22,14 @@ const projects = [
     demo: "",
     image: "https://images.unsplash.com/photo-1606021643583-b707947f1f02?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
-
+  {
+    name: "Personal Portfolio",
+    description: "A sleek and responsive personal portfolio website showcasing my projects, skills, and experience, built with React and Tailwind CSS.",
+    technologies: ["React", "Tailwind CSS", "JavaScript"],
+    github: "https://github.com/yasithrashan2003/Yasith-Rashan-Portfolio",
+    demo: "https://www.yasithrashan.online/",
+    image: portfolio
+  }
 ];
 
 const Projects = () => {
