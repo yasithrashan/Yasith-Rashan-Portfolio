@@ -99,25 +99,25 @@ const Projects = () => {
         ))}
         {/* GitHub Button at the bottom */}
         <motion.div
-  initial={{ opacity: 0, y: 20 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.8, delay: projects.length * 0.2 }}
-  className="mt-12 text-center"
->
-  <h3 className="text-lg font-medium text-stone-300 mb-4">
-    Explore my GitHub to discover more innovative projects and solutions.
-  </h3>
-  <a
-    href="https://github.com/yasithrashan2003"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="flex items-center justify-center gap-2 rounded-full bg-stone-800 px-3 py-1 text-base text-stone-200 transition-colors duration-300 hover:bg-stone-700 mx-auto w-max
-    sm:px-4 sm:py-1.5 md:px-6 md:py-2 lg:px-8 lg:py-3"
-  >
-    Visit My GitHub
-    <FaGithub className="text-lg" />
-  </a>
-</motion.div>
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: projects.length * 0.2 }}
+        className="mt-12 text-center"
+      >
+        <h3 className="text-lg font-medium text-stone-300 mb-4">
+          Explore my GitHub to discover more innovative projects and solutions.
+        </h3>
+        <a
+          href="https://github.com/yasithrashan2003"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center justify-center gap-2 rounded-full bg-white px-8 py-3 text-sm font-medium text-stone-800 transition-colors hover:bg-stone-200 focus:outline-none focus:ring-2 focus:ring-stone-400 focus:ring-offset-2 focus:ring-offset-slate-950"
+        >
+          Visit My GitHub
+          <FaGithub className="text-lg" />
+        </a>
+      </motion.div>
+
 
 
 
