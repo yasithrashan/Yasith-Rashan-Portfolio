@@ -97,6 +97,24 @@ const Projects = () => {
             </div>
           </motion.div>
         ))}
+        {/* GitHub Button at the bottom */}
+        <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8, delay: projects.length * 0.2 }}
+      className="mt-12"
+    >
+      <a
+        href="https://github.com/yasithrashan2003"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center justify-center gap-2 rounded-full bg-stone-800 px-6 py-3 text-lg text-stone-200 transition-colors hover:bg-stone-700"
+      >
+        Visit My GitHub
+        <FaGithub className="text-xl" />
+      </a>
+    </motion.div>
+
       </div>
     </section>
   );

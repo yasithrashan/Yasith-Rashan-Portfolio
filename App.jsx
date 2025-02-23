@@ -2,6 +2,7 @@ import About from "./src/components/About"
 import Certificates from "./src/components/Certificates"
 import Contact from "./src/components/Contact"
 import Education from "./src/components/Education"
+import Footer from "./src/components/Footer"
 import Hero from "./src/components/Hero"
 import Navbar from "./src/components/Navbar"
 import Projects from "./src/components/Projects"
@@ -37,6 +38,7 @@ const App = () => {
         <Education />
         <Certificates />
         <Contact />
+        <Footer />
       </div>
     </div>
   )
