@@ -3,22 +3,21 @@ import { FaCertificate } from "react-icons/fa";
 import { ExternalLink } from "lucide-react";
 
 // Import Certificates
-import dataAnalytics from "../assets/achievements/DataAnalytics.png";
-import foundationAward from "../assets/achievements/FoundationAward.jpg";
-import greatLearning from "../assets/achievements/GreatLearning.png";
-import java from "../assets/achievements/Java.png";
-import javaoop from "../assets/achievements/Javaoop.png";
-import learningGitHub from "../assets/achievements/LearningGitHub.png";
-import linkdinDatabaseFoundation from "../assets/achievements/LinkedinDatabaseFoundations.png";
-import linkdinGitHubActions from "../assets/achievements/LinkedinGitHubActions.png";
-import linkdinXML from "../assets/achievements/LinkedinXML.png";
-import linkdinITSecurity from "../assets/achievements/LinkedinITSecurity.png";
-import linkdinJavaScriptEnhancing from "../assets/achievements/LinkedinJavaScriptEnhancingtheDOM.png";
-import linkdinJavaScript from "../assets/achievements/LinkedinJavaScript.png";
-import moratuwaPython from "../assets/achievements/MoratuwaPython.jpg";
-import powerBI from "../assets/achievements/PowerBi.jpg";
-import sqlHR from "../assets/achievements/SQLHR.png";
-import tableauCertificate from "../assets/achievements/Tableau-Certificate.png";
+import dataAnalytics from "../assets/certificates/DataAnalytics.png";
+import foundationAward from "../assets/certificates/FoundationAward.jpg";
+import greatLearning from "../assets/certificates/GreatLearning.png";
+import java from "../assets/certificates/Java.png";
+import javaoop from "../assets/certificates/Javaoop.png";
+import learningGitHub from "../assets/certificates/LearningGitHub.png";
+import linkdinDatabaseFoundation from "../assets/certificates/LinkedinDatabaseFoundations.png";
+import linkdinXML from "../assets/certificates/LinkedinXML.png";
+import linkdinITSecurity from "../assets/certificates/LinkedinITSecurity.png";
+import linkdinJavaScriptEnhancing from "../assets/certificates/LinkedinJavaScriptEnhancingtheDOM.png";
+import linkdinJavaScript from "../assets/certificates/LinkedinJavaScript.png";
+import moratuwaPython from "../assets/certificates/MoratuwaPython.jpg";
+import powerBI from "../assets/certificates/PowerBi.jpg";
+import sqlHR from "../assets/certificates/SQLHR.png";
+import tableauCertificate from "../assets/certificates/Tableau-Certificate.png";
 
 
 /** @type {Array<{ title: string, provider: string, date: string, link: string, image: string }>} */
