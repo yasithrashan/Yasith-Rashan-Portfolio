@@ -49,7 +49,7 @@ const About = () => {
         >
           <div className="overflow-hidden rounded-3xl">
             <img
-              src="src\assets\ProfileImg.jpeg"
+              src="src\assets\ProfileImg.jpg"
               alt="Profile Picture"
               className="h-full w-full object-cover transition-transform hover:scale-105"
             />
