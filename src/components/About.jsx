@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Code2, Brain, Coffee, Rocket } from "lucide-react";
+import profilePic from '../assets/ProfileImg.jpg';
 
 const About = () => {
   const skills = [
@@ -49,7 +50,7 @@ const About = () => {
         >
           <div className="overflow-hidden rounded-3xl">
             <img
-              src="src/assets/ProfileImg.jpg"
+              src={profilePic}
               alt="Profile Picture"
               className="h-full w-full object-cover transition-transform hover:scale-105"
             />
