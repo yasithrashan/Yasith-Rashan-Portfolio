@@ -111,12 +111,14 @@ const Projects = () => {
     href="https://github.com/yasithrashan2003"
     target="_blank"
     rel="noopener noreferrer"
-    className="flex items-center justify-center gap-2 rounded-full bg-stone-800 px-3 py-1 text-base text-stone-200 transition-colors duration-300 hover:bg-stone-700 sm:px-4 sm:py-1.5 md:px-5 md:py-2 w-max mx-auto"
+    className="flex items-center justify-center gap-2 rounded-full bg-stone-800 px-3 py-1 text-base text-stone-200 transition-colors duration-300 hover:bg-stone-700 mx-auto w-max
+    sm:px-4 sm:py-1.5 md:px-6 md:py-2 lg:px-8 lg:py-3"
   >
     Visit My GitHub
     <FaGithub className="text-lg" />
   </a>
 </motion.div>
+
 
 
 
