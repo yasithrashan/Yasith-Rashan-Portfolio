@@ -10,7 +10,7 @@ const projects = [
     name: "University Management App - Spacefix",
     description: "A comprehensive university management system enabling seamless student enrollment, course management, and faculty administration.",
     technologies: ["React", "Node.js", "Firebase", "JavaScript"],
-    github: "https://github.com/yasithrashan2003/Spacefix-app",
+    github: "https://github.com/yasithrashan/Spacefix-app",
     demo: "https://www.spacefix.lk/",
     image: "https://images.unsplash.com/photo-1590579491624-f98f36d4c763?q=80&w=2043&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
@@ -18,7 +18,7 @@ const projects = [
     name: "Real-Time Event Ticketing System",
     description: "A dynamic event ticketing platform that provides real-time seat availability, secure bookings.",
     technologies: ["Java", "OOP", "Spring Boot", "React"],
-    github: "https://github.com/yasithrashan2003/Real-Time-Event-Ticketing-System",
+    github: "https://github.com/yasithrashan/Real-Time-Event-Ticketing-System",
     demo: "",
     image: "https://images.unsplash.com/photo-1606021643583-b707947f1f02?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
@@ -26,7 +26,7 @@ const projects = [
     name: "Personal Portfolio",
     description: "A sleek and responsive personal portfolio website showcasing my projects, skills, and experience, built with React and Tailwind CSS.",
     technologies: ["React", "Tailwind CSS", "JavaScript"],
-    github: "https://github.com/yasithrashan2003/Yasith-Rashan-Portfolio",
+    github: "https://github.com/yasithrashan/Yasith-Rashan-Portfolio",
     demo: "https://www.yasithrashan.online/",
     image: portfolio
   }
@@ -108,7 +108,7 @@ const Projects = () => {
           Explore my GitHub to discover more innovative projects and solutions.
         </h3>
         <a
-          href="https://github.com/yasithrashan2003"
+          href="https://github.com/yasithrashan"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center justify-center gap-2 rounded-full bg-white px-8 py-3 text-sm font-medium text-stone-800 transition-colors hover:bg-stone-200 focus:outline-none focus:ring-2 focus:ring-stone-400 focus:ring-offset-2 focus:ring-offset-slate-950"

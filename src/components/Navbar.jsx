@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="flex items-center justify-center gap-6 text-2xl">
         {[
           { href: "https://www.linkedin.com/in/yasith-rashan-a44b54295/", icon: FaLinkedin, label: "LinkedIn" },
-          { href: "https://github.com/yasithrashan2003", icon: FaGithub, label: "GitHub" },
+          { href: "https://github.com/yasithrashan", icon: FaGithub, label: "GitHub" },
           { href: "https://www.instagram.com/yxsiya?igsh=MXowbGZyZjNlNXlx&utm_source=qr", icon: FaInstagram, label: "Instagram" },
           { href: "https://www.facebook.com/profile.php?id=100087673762639", icon: FaFacebook, label: "Facebook" },
           { href: "https://x.com/yxsiya", icon: FaSquareXTwitter, label: "Twitter" },
