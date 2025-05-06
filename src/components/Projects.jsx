@@ -37,6 +37,14 @@ const projects = [
     github: "https://github.com/yasithrashan/network-flow-algorithm",
     demo: "",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    name: "Bookstore RESTful API",
+    description: "A comprehensive JAX-RS API for a bookstore application with endpoints for managing books, authors, customers, shopping carts, and orders following REST architectural principles.",
+    technologies: ["Java", "JAX-RS", "REST API", "JSON", "Maven", "Java 21"],
+    github: "https://github.com/yasithrashan/BookStoreAPIWebApplication",
+    demo: "",
+    image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?q=80&w=2090&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   }
 ];
 
