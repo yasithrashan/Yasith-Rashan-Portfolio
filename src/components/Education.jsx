@@ -15,7 +15,7 @@ const educationData = [
   {
     degree: " Foundation Certificate in Higher Education",
     institution: " Informatics Institute of Technology",
-    period: "2013 Jan - 2023 Sep",
+    period: "2023 Jan - 2023 Sep",
     description: "Successfully completed a foundation program focused on fundamental concepts in Computer Science, Mathematics, and Engineering. Gained hands-on experience in problem-solving, coding, and research methodologies.",
     achievements: [
       "Achieved a Merit Pass"
