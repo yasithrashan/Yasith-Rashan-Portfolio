@@ -1,6 +1,22 @@
 import { RiReactjsLine } from "react-icons/ri"
-import { TbBrandNextjs, TbBrandTypescript, TbBrandTailwind, TbBrandJavascript, TbBrandPython } from "react-icons/tb"
-import { SiMongodb, SiNodedotjs, SiExpress } from "react-icons/si"
+import { 
+  TbBrandTailwind, 
+  TbBrandJavascript, 
+  TbBrandPython, 
+  TbBrandPhp,
+  TbBrandHtml5, 
+  TbBrandCss3, 
+  TbBrandMysql,
+  TbBrandGit,
+  TbBrandFigma
+} from "react-icons/tb"
+import { 
+  SiMongodb, 
+  SiNodedotjs, 
+  SiExpress, 
+  SiFirebase, 
+  SiSpring 
+} from "react-icons/si"
 
 const Technologies = () => {
   return (
@@ -11,16 +27,9 @@ const Technologies = () => {
           </span>
         </h2>
 
-
         <div className="flex flex-wrap items-center justify-center gap-4">
-            <div>
+            <div className="p-4">
                 <RiReactjsLine className="text-7xl text-cyan-400" />
-            </div>
-            <div className="p-4">
-                <TbBrandNextjs className="text-7xl" />
-            </div>
-            <div className="p-4">
-                <TbBrandTypescript className="text-7xl text-blue-500" />
             </div>
             <div className="p-4">
                 <TbBrandJavascript className="text-7xl text-yellow-400" />
@@ -39,6 +48,31 @@ const Technologies = () => {
             </div>
             <div className="p-4">
                 <TbBrandPython className="text-7xl text-yellow-500" />
+            </div>
+            {/* New technologies */}
+            <div className="p-4">
+                <TbBrandPhp className="text-7xl text-purple-500" />
+            </div>
+            <div className="p-4">
+                <TbBrandHtml5 className="text-7xl text-orange-500" />
+            </div>
+            <div className="p-4">
+                <TbBrandCss3 className="text-7xl text-blue-500" />
+            </div>
+            <div className="p-4">
+                <SiSpring className="text-7xl text-green-400" />
+            </div>
+            <div className="p-4">
+                <TbBrandMysql className="text-7xl text-blue-600" />
+            </div>
+            <div className="p-4">
+                <SiFirebase className="text-7xl text-yellow-600" />
+            </div>
+            <div className="p-4">
+                <TbBrandGit className="text-7xl text-red-500" />
+            </div>
+            <div className="p-4">
+                <TbBrandFigma className="text-7xl text-purple-400" />
             </div>
         </div>
     </div>

@@ -6,9 +6,9 @@ const About = () => {
   const skills = [
     {
       icon: Code2,
-      title: "Full Stack Development",
-      description: "Proficient in both frontend and backend technologies, creating seamless web applications."
-    },
+      title: "Software Engineering",
+      description: "Skilled in designing, developing, and maintaining robust software solutions across various domains."
+    },    
     {
       icon: Brain,
       title: "Problem Solving",
