@@ -22,7 +22,7 @@ const certificates = [
   {
     title: "Data Analytics Professional Certificate",
     provider: "Google",
-    date: "September 2024",
+    date: "September 2023",
     link: "",
     image: dataAnalytics,
     category: "Data Analytics"
@@ -124,12 +124,12 @@ const certificates = [
     category: "Data Analytics"
   },
   {
-    title: "Data Analytics Certification",
+    title: "MySQL Tutorial",
     provider: "Great Learning",
-    date: "February 2024",
+    date: "June 2024",
     link: "",
     image: greatLearning,
-    category: "Data Analytics"
+    category: "Database"
   }
 ];
 
