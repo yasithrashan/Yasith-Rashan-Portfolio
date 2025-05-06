@@ -29,6 +29,14 @@ const projects = [
     github: "https://github.com/yasithrashan/Yasith-Rashan-Portfolio",
     demo: "https://www.yasithrashan.online/",
     image: portfolio
+  },
+  {
+    name: "Network Flow Algorithm Implementation",
+    description: "An implementation of the Ford-Fulkerson algorithm with the Edmonds-Karp improvement for finding maximum flow in a network. Handles integer capacities and follows the conservation of flow principle.",
+    technologies: ["Java", "OOP", "Algorithms", "Data Structures", "Graph Theory"],
+    github: "https://github.com/yasithrashan/network-flow-algorithm",
+    demo: "",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   }
 ];
 
