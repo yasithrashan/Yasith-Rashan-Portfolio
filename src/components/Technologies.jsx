@@ -8,14 +8,16 @@ import {
   TbBrandCss3, 
   TbBrandMysql,
   TbBrandGit,
-  TbBrandFigma
+  TbBrandFigma,
+  TbBrandDocker
 } from "react-icons/tb"
 import { 
   SiMongodb, 
   SiNodedotjs, 
   SiExpress, 
   SiFirebase, 
-  SiSpring 
+  SiSpring,
+  SiKubernetes
 } from "react-icons/si"
 
 const Technologies = () => {
@@ -73,6 +75,13 @@ const Technologies = () => {
             </div>
             <div className="p-4">
                 <TbBrandFigma className="text-7xl text-purple-400" />
+            </div>
+            {/* Added Docker and Kubernetes */}
+            <div className="p-4">
+                <TbBrandDocker className="text-7xl text-blue-400" />
+            </div>
+            <div className="p-4">
+                <SiKubernetes className="text-7xl text-blue-500" />
             </div>
         </div>
     </div>
