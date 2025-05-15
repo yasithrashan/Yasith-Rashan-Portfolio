@@ -51,7 +51,6 @@ const Technologies = () => {
             <div className="p-4">
                 <TbBrandPython className="text-7xl text-yellow-500" />
             </div>
-            {/* New technologies */}
             <div className="p-4">
                 <TbBrandPhp className="text-7xl text-purple-500" />
             </div>
@@ -76,7 +75,6 @@ const Technologies = () => {
             <div className="p-4">
                 <TbBrandFigma className="text-7xl text-purple-400" />
             </div>
-            {/* Added Docker and Kubernetes */}
             <div className="p-4">
                 <TbBrandDocker className="text-7xl text-blue-400" />
             </div>
