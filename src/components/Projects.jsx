@@ -7,6 +7,14 @@ import portfolio from "../assets/projects/portfolio.png";
 /** @type {Array<{ name: string, description: string, technologies: string[], github: string, demo: string, image: string }>} */
 const projects = [
   {
+    name: "SafeStreamX - Secure File Sharing System",
+    description: "An end-to-end encrypted file sharing platform that ensures complete privacy. Files are encrypted client-side before upload and decrypted only after download, with a zero-knowledge architecture that protects user data.",
+    technologies: ["React", "Firebase", "Tailwind CSS", "Web Crypto API", "AES-256", "RSA-OAEP"],
+    github: "https://github.com/yasithrashan/SafeStreamX-E2EE-File-Sharing",
+    demo: "https://safe-stream-x-e2-ee-file-sharing.vercel.app/",
+    image: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
     name: "University Management App - Spacefix",
     description: "A comprehensive university management system enabling seamless student enrollment, course management, and faculty administration.",
     technologies: ["React", "Node.js", "Firebase", "JavaScript"],
