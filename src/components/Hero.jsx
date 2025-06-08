@@ -29,14 +29,15 @@ const Hero = () => {
           <div className="flex flex-col items-center lg:items-start mt-10">
             <h2 className="pb-2 text-4xl font-bold tracking-tighter lg:text-6xl xl:text-7xl">
               <span className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-transparent">
-                Software Engineer and Full Stack Developer
+                Software Engineer
               </span>
             </h2>
             <p className="my-6 max-w-lg text-lg leading-relaxed tracking-wide text-stone-400">
-              Computer Science student pursuing BSc Hons degree at IIT in partnership with University of Westminster.
-              Equipped with full-stack development skills and Java programming experience. Seeking opportunities to
-              apply academic knowledge and technical abilities in a professional software engineering environment.
-            </p>
+            Computer Science student pursuing a BSc Hons degree at IIT in partnership with the University of Westminster.
+            Equipped with strong software engineering fundamentals and Java programming experience. Seeking opportunities to
+            apply academic knowledge and technical abilities in a professional software development environment.
+          </p>
+
             <a
               href="/path-to-your-cv.pdf"
               target="_blank"
