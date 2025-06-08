@@ -1,5 +1,5 @@
 import logo from "../assets/Logo.svg"
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa"
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaMedium } from "react-icons/fa"
 import { FaSquareXTwitter } from "react-icons/fa6"
 
 const Navbar = () => {
@@ -14,6 +14,7 @@ const Navbar = () => {
         {[
           { href: "https://www.linkedin.com/in/yasith-rashan-a44b54295/", icon: FaLinkedin, label: "LinkedIn" },
           { href: "https://github.com/yasithrashan", icon: FaGithub, label: "GitHub" },
+          { href: "https://medium.com/@y.rashan22", icon: FaMedium, label: "Medium" },
           { href: "https://www.instagram.com/yxsiya?igsh=MXowbGZyZjNlNXlx&utm_source=qr", icon: FaInstagram, label: "Instagram" },
           { href: "https://www.facebook.com/profile.php?id=100087673762639", icon: FaFacebook, label: "Facebook" },
           { href: "https://x.com/yxsiya", icon: FaSquareXTwitter, label: "Twitter" },
